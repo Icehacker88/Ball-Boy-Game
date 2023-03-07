@@ -1,0 +1,345 @@
+{
+  "_currentLevelIndexComment": "Specifies which level to load from the levels array",
+  "currentLevelIndex": 0,
+  "levels": [
+    {
+      "levelWidth": 2000.0,
+      "levelHeight": 620.0,
+      "floor": {
+        "height": 600.0,
+        "_colorComment": "color must be a web color, e.g. #0033cc",
+        "color": "#001100"
+      },
+      "levelGravity": 700.0,
+      "maxHeroVelocityX": 50,
+      "_entitiesTypeComment": "options include cloud, enemy, static, boundary, background",
+      "genericEntities": [
+        {
+          "type": "cloud",
+          "startX": 234.0,
+          "startY": 0.1,
+          "horizontalVelocity": -20.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_1.png"
+        },
+        {
+          "type": "cloud",
+          "startX": 24.0,
+          "startY": 30.1,
+          "horizontalVelocity": 51.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_2.png"
+        },
+        {
+          "type": "cloud",
+          "startX": 234.0,
+          "startY": 400.1,
+          "horizontalVelocity": -61.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_1.png"
+        },
+        {
+          "type": "cloud",
+          "startX": 24.0,
+          "startY": 450.1,
+          "horizontalVelocity": 10.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_2.png"
+        },
+        {
+          "type": "static",
+          "posX": 400,
+          "posY": 565,
+          "height": 40,
+          "image": "boulder.png"
+        },
+        {
+          "type": "static",
+          "posX": 550,
+          "posY": 500,
+          "height": 100,
+          "image": "stoneblock.png"
+        },
+        {
+          "type": "static",
+          "posX": 830,
+          "posY": 500,
+          "height": 100,
+          "image": "stoneblock.png"
+        },
+
+        {
+          "type": "enemy",
+          "startX": 10.0,
+          "startY": 550.1,
+          "startVelocityX": -10.0,
+          "height": 20.0,
+          "behaviour": "aggressive"
+        },
+        {
+          "type": "enemy",
+          "startX": 1000.0,
+          "startY": 550.1,
+          "startVelocityX": -10.0,
+          "height": 20.0,
+          "behaviour": "scared"
+        },
+        {
+          "type": "background",
+          "posX": 0.0,
+          "posY": 400.0,
+          "height": 200,
+          "image": "landscape_0000_1_trees.png"
+        },
+        {
+          "type": "background",
+          "posX": 630,
+          "posY": 400.0,
+          "height": 200,
+          "image": "landscape_0000_1_trees.png"
+        },
+        {
+          "type": "background",
+          "posX": 1200,
+          "posY": 400.0,
+          "height": 200,
+          "image": "landscape_0000_1_trees.png"
+        },
+        {
+          "type": "background",
+          "posX": 1800,
+          "posY": 400.0,
+          "height": 200,
+          "image": "landscape_0000_1_trees.png"
+        }
+      ],
+      "hero": {
+        "type": "hero",
+        "startX": 150.0,
+        "startY": 300.0,
+        "_sizeComment": "options include small, medium, large. If not specified this field will default to medium",
+        "size": "large",
+        "image": "ch_stand2.png"
+
+      },
+      "finish": {
+        "type": "finish",
+        "posX": 1200.0,
+        "posY": 520.0,
+        "height": 80.0,
+        "width": 40
+      }
+    },
+    {
+      "levelWidth": 1000.0,
+      "levelHeight": 620.0,
+      "floor": {
+        "height": 600.0,
+        "_colorComment": "color must be a web color, e.g. #0033cc",
+        "color": "#001100"
+      },
+      "levelGravity": 700.0,
+      "maxHeroVelocityX": 50,
+      "_entitiesTypeComment": "options include cloud, enemy, static, boundary, background",
+      "genericEntities": [
+        {
+          "type": "cloud",
+          "startX": 234.0,
+          "startY": 0.1,
+          "horizontalVelocity": -20.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_1.png"
+        },
+        {
+          "type": "cloud",
+          "startX": 24.0,
+          "startY": 30.1,
+          "horizontalVelocity": 51.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_2.png"
+        },
+        {
+          "type": "cloud",
+          "startX": 234.0,
+          "startY": 400.1,
+          "horizontalVelocity": -61.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_1.png"
+        },
+        {
+          "type": "cloud",
+          "startX": 24.0,
+          "startY": 450.1,
+          "horizontalVelocity": 10.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_2.png"
+        },
+        {
+          "type": "static",
+          "posX": 400,
+          "posY": 565,
+          "height": 40,
+          "image": "boulder.png"
+        },
+        {
+          "type": "enemy",
+          "startX": 10.0,
+          "startY": 550.1,
+          "startVelocityX": -10.0,
+          "height": 20.0,
+          "behaviour": "aggressive"
+        },
+        {
+          "type": "background",
+          "posX": 0.0,
+          "posY": 400.0,
+          "height": 200,
+          "image": "landscape_0000_1_trees.png"
+        },
+        {
+          "type": "background",
+          "posX": 630,
+          "posY": 400.0,
+          "height": 200,
+          "image": "landscape_0000_1_trees.png"
+        }
+      ],
+      "hero": {
+        "type": "hero",
+        "startX": 150.0,
+        "startY": 300.0,
+        "_sizeComment": "options include small, medium, large. If not specified this field will default to medium",
+        "size": "medium",
+        "image": "ch_stand2.png"
+
+      },
+      "finish": {
+        "type": "finish",
+        "posX": 900.0,
+        "posY": 520.0,
+        "height": 80.0,
+        "width": 40
+      }
+    },
+    {
+      "levelWidth": 1500.0,
+      "levelHeight": 620.0,
+      "floor": {
+        "height": 600.0,
+        "_colorComment": "color must be a web color, e.g. #0033cc",
+        "color": "#001100"
+      },
+      "levelGravity": 700.0,
+      "maxHeroVelocityX": 50,
+      "_entitiesTypeComment": "options include cloud, enemy, static, boundary, background",
+      "genericEntities": [
+        {
+          "type": "cloud",
+          "startX": 234.0,
+          "startY": 0.1,
+          "horizontalVelocity": -20.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_1.png"
+        },
+        {
+          "type": "cloud",
+          "startX": 24.0,
+          "startY": 30.1,
+          "horizontalVelocity": 51.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_2.png"
+        },
+        {
+          "type": "cloud",
+          "startX": 234.0,
+          "startY": 400.1,
+          "horizontalVelocity": -61.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_1.png"
+        },
+        {
+          "type": "cloud",
+          "startX": 24.0,
+          "startY": 450.1,
+          "horizontalVelocity": 10.2,
+          "_imageComment": "This is an optional field. A suitable default will be selected if it is not provided.",
+          "image": "cloud_2.png"
+        },
+        {
+          "type": "static",
+          "posX": 300,
+          "posY": 565,
+          "height": 40,
+          "image": "boulder.png"
+        },
+        {
+          "type": "static",
+          "posX": 400,
+          "posY": 500,
+          "height": 100,
+          "image": "stoneblock.png"
+        },
+        {
+          "type": "static",
+          "posX": 600,
+          "posY": 500,
+          "height": 100,
+          "image": "stoneblock.png"
+        },
+        {
+          "type": "enemy",
+          "startX": 5.0,
+          "startY": 550.1,
+          "startVelocityX": -10.0,
+          "height": 20.0,
+          "behaviour": "aggressive"
+        },
+        {
+          "type": "enemy",
+          "startX": 550.0,
+          "startY": 550.1,
+          "startVelocityX": -10.0,
+          "height": 20.0,
+          "behaviour": "aggressive"
+        },
+        {
+          "type": "background",
+          "posX": 0.0,
+          "posY": 400.0,
+          "height": 200,
+          "image": "landscape_0000_1_trees.png"
+        },
+        {
+          "type": "background",
+          "posX": 500,
+          "posY": 400.0,
+          "height": 200,
+          "image": "landscape_0000_1_trees.png"
+        },
+        {
+          "type": "background",
+          "posX": 1000,
+          "posY": 400.0,
+          "height": 200,
+          "image": "landscape_0000_1_trees.png"
+        }
+      ],
+      "hero": {
+        "type": "hero",
+        "startX": 150.0,
+        "startY": 300.0,
+        "_sizeComment": "options include small, medium, large. If not specified this field will default to medium",
+        "size": "small",
+        "image": "ch_stand2.png"
+
+      },
+      "finish": {
+        "type": "finish",
+        "posX": 1000.0,
+        "posY": 520.0,
+        "height": 80.0,
+        "width": 40
+      }
+    }
+  ]
+}
